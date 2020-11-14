@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap");
+
+body {
+  background-color: rgba(0, 0, 0, 0.356);
+  text-align: center;
+  align-content: center;
+}
+table {
+  margin-top: 5px;
+  position: fixed;
+
+  text-align: center;
+}
+th {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: "Cinzel", serif;
+  color: rgb(31, 7, 98);
+  cursor: pointer;
+  padding: 2.5em 0.5em;
+  margin-top: 5px;
+  text-align: center;
+  position: sticky;
+}
+
+header {
+  padding: 15px;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+}
+.email {
+  color: blue;
+  font-size: 15px;
+}
+.inputAndButton {
+  margin-top: 40px;
+}
+.searchBtn {
+  margin-top: 40px;
+  letter-spacing: 1px !important;
+  font-size: 20px;
+  background-color: rgba(0, 4, 228, 0.514);
+  border-radius: 5px;
+  border-color: blue;
+
+  font-weight: bolder;
+}
+.headerText {
+  letter-spacing: 1px;
+  font-size: 60px;
+  font-family: "Cinzel", serif;
+  font-weight: lighter;
+
+  color: black;
+}
+img {
+  float: left;
+}
+input {
+  color: black !important;
+}
+.smallerHeaderText {
+  color: white;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.5px;
+  line-height: 0px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+table.center {
+  padding: 0px;
+  position: relative;
+  background: rgba(36, 36, 54, 0.15);
+  border-radius: 5px;
+
+  font-family: "Cinzel", serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  padding: 2.5em 0.5em;
+  border-bottom: whitesmoke;
+  text-align: center;
+}
+#employeses.input {
+  color: white;
+}
+#employees.inputBox {
+  background: rgba(245, 243, 243, 0.678);
+  border-radius: 5px;
+  width: 325px;
+  height: 40px;
+  text-align: center;
+}
